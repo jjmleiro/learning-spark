@@ -18,6 +18,6 @@ $ mvn package
 Submit spark job:
 
 ```sh
-$ spark-submit --class org.examples.scala.WordCount --master local /jar_folder/learning-spark-0.0.1-SNAPSHOT.jar /input_file_hdfs_folder/input.txt 2
+$ spark-submit --class org.examples.scala.main.Main --master local /jar_folder/learning-spark-VERSION.jar /input_file_hdfs_folder/input.txt 2 Class_Example_To_Execute
 ```
 

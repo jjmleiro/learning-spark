@@ -23,6 +23,6 @@ object WordCount {
     // count characters
     val charCounts = filtered.flatMap(_._1.toCharArray).map((_, 1)).reduceByKey(_ + _)
 
-    System.out.println("RESULTS: " + charCounts.collect().mkString(", "))
+    println("RESULTS: " + charCounts.collect().mkString(", "))
   }
 }
